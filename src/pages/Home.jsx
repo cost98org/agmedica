@@ -321,7 +321,7 @@ export default function Home() {
                 </div>
                 <div className="info-content">
                   <strong>Orari</strong>
-                  <span>Lun&ndash;Ven 9:00&ndash;19:00 &middot; Sab 9:00&ndash;13:00</span>
+                  <span>Lunedì–Venerdì: 9:00–19:00<br />Sabato: 9:00–13:00</span>
                 </div>
               </div>
             </div>
