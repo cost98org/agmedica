@@ -120,7 +120,7 @@ export default function Home() {
           <div className="section-head reveal">
             <div className="kicker">Come funziona</div>
             <h2 className="section-title">Il tuo percorso di <em>cura</em></h2>
-            <p className="section-lead">Dalla prima visita al benessere duraturo: tre passaggi chiari, un team sempre al tuo fianco.</p>
+            <p className="section-lead">Dalla prima visita al benessere duraturo: un percorso personalizzato con un team sempre al tuo fianco.</p>
           </div>
           <div className="process-grid">
             <div className="process-item reveal">
@@ -137,6 +137,11 @@ export default function Home() {
               <div className="process-num">03</div>
               <div className="process-title">Follow-up continuo</div>
               <p className="process-desc">Visite di controllo periodiche, aggiustamenti del piano e supporto costante fino al raggiungimento degli obiettivi.</p>
+            </div>
+            <div className="process-item reveal">
+              <div className="process-num">04</div>
+              <div className="process-title">Tutoraggio giornaliero</div>
+              <p className="process-desc">A disposizione un tutor che ti seguirà passo per passo nel tuo percorso di cura.</p>
             </div>
           </div>
         </div>
