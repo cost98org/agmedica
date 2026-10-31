@@ -19,7 +19,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-layout">
           <div>
-            <div className="hero-eyebrow">Opera, Milano &middot; Dal 2015</div>
+            <div className="hero-eyebrow">Opera, Milano</div>
             <h1 className="hero-title reveal">
               La tua salute,<br />
               curata da <em>specialisti</em>.
