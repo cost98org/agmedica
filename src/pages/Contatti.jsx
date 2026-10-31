@@ -1,4 +1,4 @@
-import PhoneDropdown from '../components/PhoneDropdown'
+import SpecialistContacts from '../components/SpecialistContacts'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useReveal } from '../hooks/useReveal'
@@ -26,16 +26,13 @@ export default function Contatti() {
 
       <section className="section">
         <div className="w">
+          <SpecialistContacts />
           <div className="contatti-grid">
             <div>
               <div className="contact-info-block">
                 <div className="info-row reveal">
                   <div className="info-icon">📍</div>
                   <div className="info-content"><strong>Indirizzo</strong><span>Via Giacomo Leopardi 3, Opera (MI) 20090</span></div>
-                </div>
-                <div className="info-row reveal">
-                  <div className="info-icon">📞</div>
-                  <div className="info-content"><strong>Telefono</strong><PhoneDropdown /></div>
                 </div>
                 <div className="info-row reveal">
                   <div className="info-icon">💬</div>
