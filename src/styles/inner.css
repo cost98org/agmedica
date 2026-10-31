@@ -405,3 +405,27 @@
   .specialist-contact-avatar { width: 44px; height: 44px; flex-basis: 44px; }
   .specialist-contact-call { min-width: 0; padding: .65rem .7rem; }
 }
+
+
+/* Wider map and compact contact cards */
+.contact-section .contact-layout,
+.contatti-grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(0, 2fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+.contact-section .contact-layout > *,
+.contatti-grid > * { min-width: 0; }
+.contact-section .contact-layout iframe,
+.contatti-grid iframe { min-height: 420px; }
+@media (max-width: 900px) {
+  .contact-section .contact-layout,
+  .contatti-grid { grid-template-columns: 1fr; }
+  .contact-section .contact-layout iframe,
+  .contatti-grid iframe { height: 370px; min-height: 370px; }
+}
+@media (max-width: 580px) {
+  .contact-section .contact-layout iframe,
+  .contatti-grid iframe { height: 300px; min-height: 300px; }
+}
