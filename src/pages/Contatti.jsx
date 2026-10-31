@@ -32,7 +32,7 @@ export default function Contatti() {
               <div className="contact-info-block">
                 <div className="info-row reveal">
                   <div className="info-icon">📍</div>
-                  <div className="info-content"><strong>Indirizzo</strong><span>Via Giacomo Leopardi 3, Opera (MI) 20090</span></div>
+                  <div className="info-content"><strong>Indirizzo</strong><span><a href="https://www.google.com/maps/search/?api=1&query=Via%20Giacomo%20Leopardi%203%2C%20Opera%20MI" target="_blank" rel="noopener noreferrer">Via Giacomo Leopardi 3, Opera (MI) 20090</a></span></div>
                 </div>
                 <div className="info-row reveal">
                   <div className="info-icon">💬</div>
