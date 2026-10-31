@@ -292,7 +292,7 @@ export default function Home() {
         <div className="w">
           <div className="section-head reveal">
             <div className="kicker">Dove siamo</div>
-            <h2 className="section-title">Raggiungi <em>lo studio</em></h2>
+            <h2 className="section-title">Siamo qui <em>per te</em></h2>
           </div>
           <SpecialistContacts />
           <div className="contact-layout">
