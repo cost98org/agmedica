@@ -59,7 +59,7 @@ export default function Nutrizione() {
               </div>
               <div className="booking-card reveal">
                 <a href="https://www.miodottore.it" target="_blank" rel="noopener" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>Prenota su MioDottore</a>
-                <a href="tel:+390200000000" className="btn btn-outline" style={{ width: '100%', justifyContent: 'center', marginTop: '.8rem' }}>Chiama per prenotare</a>
+                <a href="tel:+393317882547" className="btn btn-outline" style={{ width: '100%', justifyContent: 'center', marginTop: '.8rem' }}>Chiama per prenotare</a>
               </div>
             </div>
           </div>
