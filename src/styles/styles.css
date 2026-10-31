@@ -1371,12 +1371,38 @@ textarea { min-height: 120px; resize: vertical; }
   color: #93ddd0;
 }
 .hero-trust .trust-icon svg { width: 17px; height: 17px; }
+/* Mobile: one compact trust strip rather than three stacked cards */
 @media (max-width: 650px) {
-  .hero-trust { gap: .55rem .9rem; }
-  .hero-trust .trust-item {
-    padding: 0;
-    margin: 0;
-    border-right: 0;
-    font-size: .76rem;
+  .hero-trust {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: .7rem .65rem;
+    align-items: start;
+    margin-top: .25rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,.18);
   }
+  .hero-trust .trust-item {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: .4rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    font-size: .73rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  .hero-trust .trust-item:last-child { grid-column: 1 / -1; }
+  .hero-trust .trust-icon {
+    flex: 0 0 16px;
+    width: 16px;
+    height: 16px;
+  }
+  .hero-trust .trust-icon svg { width: 16px; height: 16px; }
+}
+@media (max-width: 350px) {
+  .hero-trust { grid-template-columns: 1fr; gap: .55rem; }
+  .hero-trust .trust-item:last-child { grid-column: auto; }
 }
