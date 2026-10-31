@@ -154,7 +154,7 @@ export default function Home() {
         <div className="w">
           <div className="section-head reveal">
             <div className="kicker">Il nostro team</div>
-            <h2 className="section-title">Medici <em>specialisti</em></h2>
+            <h2 className="section-title">Gli <em>specialisti a disposizione</em></h2>
             <p className="section-lead">Professionisti certificati e aggiornati, con esperienza clinica pluridecennale e grande dedizione verso ogni paziente.</p>
           </div>
           <div className="doctors-grid">
