@@ -1328,3 +1328,12 @@ textarea { min-height: 120px; resize: vertical; }
 .service-photo-content h3 { font-size:1.22rem; }
 .service-photo-content p { margin:.9rem 0 1.3rem; }
 @media(max-width:700px){ .service-photo-card { padding:1.3rem; } }
+
+
+/* Compact trust cards in the hero */
+.hero-trust { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.7rem; margin-top:.65rem; }
+.hero-trust .trust-item { display:flex; align-items:center; gap:.65rem; min-width:0; padding:.8rem .85rem; background:rgba(255,255,255,.10); border:1px solid rgba(255,255,255,.20); border-radius:13px; color:#fff; font-size:.78rem; line-height:1.4; font-weight:600; backdrop-filter:blur(5px); }
+.trust-icon { display:grid; place-items:center; flex:0 0 32px; width:32px; height:32px; background:rgba(125,212,200,.16); color:#a4e4d9; border-radius:9px; }
+.trust-icon svg { width:19px; height:19px; }
+@media(max-width:1050px){.hero-trust {grid-template-columns:repeat(3,minmax(0,1fr));}}
+@media(max-width:650px){.hero-trust {grid-template-columns:1fr; gap:.55rem;} .hero-trust .trust-item {padding:.7rem .8rem;} }
