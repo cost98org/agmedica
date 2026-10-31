@@ -634,3 +634,10 @@
 .contact-left-column a[href^="tel:"]:focus-visible {
   text-decoration: none;
 }
+
+/* Keep email and address links visually clean without underlines */
+.contact-left-column .info-content a,
+.contact-left-column .info-content a:hover,
+.contact-left-column .info-content a:focus-visible {
+  text-decoration: none;
+}
