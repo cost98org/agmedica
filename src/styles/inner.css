@@ -433,7 +433,7 @@
 
 /* Specialists and studio details in one narrow column; tall map alongside */
 .contact-section .contact-layout,
-.contatti-grid { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); align-items: stretch; }
+.contatti-grid { grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); align-items: stretch; }
 .contact-left-column { min-width: 0; display: flex; flex-direction: column; gap: 1.1rem; }
 .contact-left-column .specialist-contacts { margin: 0; }
 .contact-left-column .specialist-contacts-heading { margin-bottom: .75rem; }
