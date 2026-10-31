@@ -304,7 +304,7 @@ export default function Home() {
                 </div>
                 <div className="info-content">
                   <strong>Indirizzo</strong>
-                  <span>Via Giacomo Leopardi 3, Opera (MI) 20090</span>
+                  <span><a href="https://www.google.com/maps/search/?api=1&query=Via%20Giacomo%20Leopardi%203%2C%20Opera%20MI" target="_blank" rel="noopener noreferrer">Via Giacomo Leopardi 3, Opera (MI) 20090</a></span>
                 </div>
               </div>
               <div className="info-row reveal">
