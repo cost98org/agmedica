@@ -1274,3 +1274,30 @@ textarea { min-height: 120px; resize: vertical; }
  .process-item { padding: 1.2rem; }
  .process-num { width: 38px; height: 38px; margin-bottom: .7rem; }
 }
+
+
+/* Care journey: connected timeline, distinct from service cards */
+.care-journey { position: relative; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 1.15rem; isolation: isolate; padding-top: 1rem; }
+.care-journey-track { position: absolute; z-index: -1; left: 8%; right: 8%; top: 40px; height: 2px; background: linear-gradient(90deg, #b6dcd2, var(--teal), #b6dcd2); }
+.care-step { display: flex; flex-direction: column; align-items: flex-start; gap: 1.2rem; min-width: 0; }
+.care-step-marker { display: grid; place-items: center; width: 64px; height: 64px; flex: 0 0 64px; background: #fff; border: 2px solid #c6e2d9; border-radius: 20px; color: var(--teal); box-shadow: 0 5px 18px rgba(20,65,78,.07); }
+.care-step-marker svg { width: 27px; height: 27px; }
+.care-step-content { flex: 1; width: 100%; padding: 1.4rem 1.25rem 1.55rem; background: #fff; border: 1px solid #e1ebe9; border-radius: 18px; box-shadow: 0 7px 24px rgba(18,43,65,.045); }
+.care-step-index { color: var(--teal); font-size: .7rem; font-weight: 800; letter-spacing: .12em; }
+.care-step-content h3 { margin: .7rem 0 .55rem; font-family: "Sora",sans-serif; font-size: 1.05rem; font-weight: 700; color: var(--navy); line-height: 1.35; }
+.care-step-content p { font-size: .87rem; line-height: 1.75; color: var(--text-dim); }
+.care-step-featured .care-step-marker { background: var(--teal); border-color: var(--teal); color: #fff; }
+.care-step-featured .care-step-content { background: #edf7f3; border-color: #c4e2d5; }
+.care-journey-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-top: 2rem; padding: 1.1rem 1.4rem; border-radius: 14px; background: #e8f3f0; color: var(--navy); font-size: .9rem; }
+.care-journey-link { display: inline-flex; align-items: center; gap: .7rem; font-weight: 700; color: var(--teal); text-decoration: none; }
+.care-journey-link:hover { color: var(--navy); }
+@media(max-width: 1000px) { .care-journey { grid-template-columns: repeat(2,minmax(0,1fr)); row-gap: 1.7rem; } .care-journey-track { display:none; } }
+@media(max-width: 600px) {
+ .care-journey { grid-template-columns: 1fr; gap: 0; padding-left: .3rem; }
+ .care-journey::before { content:""; position:absolute; left: 25px; top: 27px; bottom: 35px; width:2px; background: #baded3; }
+ .care-step { position:relative; flex-direction:row; gap: .85rem; padding-bottom: 1.1rem; }
+ .care-step-marker { position:relative; z-index:1; width:50px; height:50px; flex-basis:50px; border-radius:15px; }
+ .care-step-marker svg { width:22px; height:22px; }
+ .care-step-content { padding: 1.15rem; }
+ .care-journey-footer { align-items: flex-start; flex-direction:column; }
+}
