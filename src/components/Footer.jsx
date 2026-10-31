@@ -17,7 +17,6 @@ export default function Footer() {
         </div>
         <div className="footer-col">
           <div className="footer-col-title">Contatti</div>
-          <a href="tel:+390200000000">+39 02 0000 0000</a>
           <a href="mailto:info@agmedicamilano.it">info@agmedicamilano.it</a>
           <a href="https://wa.me/390000000000" target="_blank" rel="noopener">WhatsApp</a>
           <a href="https://www.miodottore.it" target="_blank" rel="noopener">Prenota su MioDottore</a>
