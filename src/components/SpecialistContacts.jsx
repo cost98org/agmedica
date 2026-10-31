@@ -7,11 +7,8 @@ const specialists = [
 
 export default function SpecialistContacts() {
   return (
-    <section className="specialist-contacts" id="specialisti" aria-labelledby="specialist-contacts-title">
-      <div className="specialist-contacts-heading">
-        <h2 id="specialist-contacts-title">Parla con i nostri specialisti</h2>
-        <p>Scegli il professionista e chiamalo direttamente, senza passaggi intermedi.</p>
-      </div>
+    <section className="specialist-contacts" id="specialisti" aria-label="Contatti degli specialisti">
+
       <div className="specialist-contacts-grid">
         {specialists.map(({ name, specialization, phone, href }) => (
           <div className="specialist-contact-card" key={name}>
