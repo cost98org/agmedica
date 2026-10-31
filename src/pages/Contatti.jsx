@@ -44,7 +44,7 @@ export default function Contatti() {
                 </div>
                 <div className="info-row reveal">
                   <div className="info-icon">⏰</div>
-                  <div className="info-content"><strong>Orari di apertura</strong><span>Lunedì–Venerdì: 9:00–19:00<br />Sabato: 9:00–13:00</span></div>
+                  <div className="info-content"><strong>Orari di apertura</strong><span>Lunedì–Venerdì: 9:00–19:00 · Sabato: 9:00–13:00</span></div>
                 </div>
                 <div className="info-row reveal">
                   <div className="info-icon">🗓️</div>
