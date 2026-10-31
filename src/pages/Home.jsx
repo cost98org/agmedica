@@ -1,3 +1,4 @@
+import PhoneDropdown from '../components/PhoneDropdown'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useReveal } from '../hooks/useReveal'
@@ -310,7 +311,7 @@ export default function Home() {
                 </div>
                 <div className="info-content">
                   <strong>Telefono</strong>
-                  <span><a href="tel:+390200000000">+39 02 0000 0000</a></span>
+                  <PhoneDropdown />
                 </div>
               </div>
               <div className="info-row reveal">
