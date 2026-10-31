@@ -469,3 +469,12 @@
   padding: 0;
   flex: 0 0 40px;
 }
+
+
+/* Full specialist details; phone number replaces right-side action */
+.contact-left-column .specialist-contact-details { gap: .2rem; }
+.contact-left-column .specialist-contact-details strong { font-size: .9rem; }
+.contact-left-column .specialist-contact-specialization { font-size: .76rem; color: var(--teal); line-height: 1.35; white-space: normal; }
+.contact-left-column .specialist-contact-number { color: var(--navy); font-weight: 650; font-size: .84rem; text-decoration: none; width: fit-content; }
+.contact-left-column .specialist-contact-number:hover,
+.contact-left-column .specialist-contact-number:focus-visible { color: var(--teal); text-decoration: underline; }
