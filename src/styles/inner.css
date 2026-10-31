@@ -457,3 +457,15 @@
 @media (max-width: 580px) {
  .contact-section .contact-layout iframe, .contatti-grid iframe { min-height: 320px; height: 320px; }
 }
+
+
+/* Compact icon-only telephone action */
+.specialist-contact-call,
+.contact-left-column .specialist-contact-call {
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  min-height: 40px;
+  padding: 0;
+  flex: 0 0 40px;
+}
