@@ -1317,3 +1317,14 @@ textarea { min-height: 120px; resize: vertical; }
 .service-photo-content p { color:var(--text-dim); font-size:.91rem; line-height:1.7; margin:.9rem 0 1.15rem; flex:1; }
 .service-photo-link { display:inline-flex; gap:.6rem; align-items:center; color:var(--teal); font-weight:700; font-size:.86rem; }
 @media (max-width:700px) { .services-photo-grid { grid-template-columns:1fr; gap:1rem; } .service-photo-media { height:205px; } .service-photo-content { padding:1.15rem; } }
+
+
+/* Photo-free service cards */
+.services-photo-grid { gap: 1.2rem; }
+.service-photo-card { padding: 1.5rem; border-radius: 18px; border-top: 3px solid var(--teal); }
+.service-icon-wrap { display:grid; place-items:center; width:58px; height:58px; margin-bottom:1.15rem; border-radius:16px; background:#e6f3ef; color:var(--teal); }
+.service-icon-wrap svg { width:29px; height:29px; }
+.service-photo-content { padding:0; }
+.service-photo-content h3 { font-size:1.22rem; }
+.service-photo-content p { margin:.9rem 0 1.3rem; }
+@media(max-width:700px){ .service-photo-card { padding:1.3rem; } }
