@@ -514,3 +514,12 @@
 
 /* Use the same heading color as Indirizzo for specialist roles */
 .contact-left-column .specialist-contact-specialization { color: var(--navy); }
+
+
+/* Specialist title above name and phone on the same responsive row */
+.contact-left-column .specialist-contact-inline,
+.specialist-contact-inline { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: .75rem; row-gap: .15rem; }
+.contact-left-column .specialist-contact-name,
+.specialist-contact-name { color: var(--text-dim); font-size: .83rem; font-weight: 400; }
+.contact-left-column .specialist-contact-specialization { color: var(--navy); font-weight: 700; font-size: .88rem; }
+.contact-left-column .specialist-contact-number { white-space: nowrap; }
