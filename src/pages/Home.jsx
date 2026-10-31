@@ -39,26 +39,21 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="hero-card reveal">
-            <div className="hero-card-title">Lo studio in numeri</div>
-            <div className="stat-grid">
-              <div className="stat">
-                <div className="stat-val" data-count="4">4</div>
-                <div className="stat-label">Specializzazioni</div>
-              </div>
-              <div className="stat">
-                <div className="stat-val" data-count="500" data-suffix="+">500+</div>
-                <div className="stat-label">Pazienti seguiti</div>
-              </div>
+          <aside className="hero-focus reveal" aria-label="Le specializzazioni di AG Medica">
+            <span className="hero-focus-kicker">IL NOSTRO APPROCCIO</span>
+            <h2>Quattro competenze.<br /><em>Un'unica attenzione.</em></h2>
+            <p>Professionisti che collaborano per costruire il percorso giusto per te.</p>
+            <nav className="hero-focus-links" aria-label="Esplora le specializzazioni">
+              <Link to="/servizi/nutrizione"><span className="hero-focus-index">01</span><span>Nutrizione</span><span className="hero-focus-arrow" aria-hidden="true">↗</span></Link>
+              <Link to="/servizi/osteopatia"><span className="hero-focus-index">02</span><span>Osteopatia</span><span className="hero-focus-arrow" aria-hidden="true">↗</span></Link>
+              <Link to="/servizi/psicologia"><span className="hero-focus-index">03</span><span>Psicologia</span><span className="hero-focus-arrow" aria-hidden="true">↗</span></Link>
+              <Link to="/servizi/ozonoterapia"><span className="hero-focus-index">04</span><span>Ozonoterapia</span><span className="hero-focus-arrow" aria-hidden="true">↗</span></Link>
+            </nav>
+            <div className="hero-focus-stats">
+              <div><strong data-count="4">4</strong><span>Specializzazioni</span></div>
+              <div><strong data-count="500" data-suffix="+">500+</strong><span>Pazienti seguiti</span></div>
             </div>
-            <div className="svc-chips">
-              <div className="svc-chip"><span className="svc-chip-dot"></span>Nutrizione clinica e sportiva</div>
-              <div className="svc-chip"><span className="svc-chip-dot"></span>Osteopatia e riabilitazione</div>
-              <div className="svc-chip"><span className="svc-chip-dot"></span>Psicologia e supporto cognitivo</div>
-              <div className="svc-chip"><span className="svc-chip-dot"></span>Ozonoterapia</div>
-            </div>
-            <Link to="/prenotazioni" className="hero-card-cta">Fissa il tuo appuntamento →</Link>
-          </div>
+          </aside>
         </div>
       </section>
 
