@@ -294,9 +294,10 @@ export default function Home() {
             <div className="kicker">Dove siamo</div>
             <h2 className="section-title">Siamo qui <em>per te</em></h2>
           </div>
-          <SpecialistContacts />
           <div className="contact-layout">
-            <div className="contact-info-block">
+            <div className="contact-left-column">
+              <SpecialistContacts />
+              <div className="contact-info-block">
               <div className="info-row reveal">
                 <div className="info-icon">
                   <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="18" height="18" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
