@@ -26,9 +26,9 @@ export default function Contatti() {
 
       <section className="section">
         <div className="w">
-          <SpecialistContacts />
           <div className="contatti-grid">
-            <div>
+            <div className="contact-left-column">
+              <SpecialistContacts />
               <div className="contact-info-block">
                 <div className="info-row reveal">
                   <div className="info-icon">📍</div>
