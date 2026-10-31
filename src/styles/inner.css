@@ -491,3 +491,23 @@
   color: #fff;
 }
 .specialist-contact-avatar svg { width: 18px; height: 18px; stroke: #fff; }
+
+
+/* Match specialist card sizing to the existing studio contact cards */
+.contact-left-column .specialist-contact-card {
+  min-height: 86px;
+  padding: .8rem 1rem;
+  gap: .75rem;
+  border-radius: 12px;
+  background: #fbfcfc;
+  box-shadow: none;
+  border: 1px solid #e7ebee;
+}
+.contact-left-column .specialist-contact-avatar {
+  width: 42px;
+  height: 42px;
+  flex-basis: 42px;
+}
+.contact-left-column .specialist-contacts-grid {
+  gap: .55rem;
+}
