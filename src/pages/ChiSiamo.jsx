@@ -49,7 +49,7 @@ export default function ChiSiamo() {
               <p>Lo studio nasce a Opera, nel cuore del sud-ovest milanese, con l&rsquo;obiettivo di portare eccellenza medica vicino ai pazienti. Nel corso degli anni abbiamo ampliato il team e le competenze, senza mai perdere il valore fondante: la cura della persona.</p>
               <p>Siamo presenti su MioDottore e disponibili telefonicamente per qualsiasi esigenza. La prenotazione è semplice, rapida e senza attese eccessive.</p>
               <div className="stat-grid" style={{ marginTop: '1.2rem' }}>
-                <div className="stat"><div className="stat-val" data-count="9" data-suffix="+">9+</div><div className="stat-label">Anni attivi</div></div>
+                <div className="stat"><div className="stat-val" data-count="300" data-suffix="+">300+</div><div className="stat-label">Pazienti</div></div>
                 <div className="stat"><div className="stat-val" data-count="4">4</div><div className="stat-label">Specialisti</div></div>
               </div>
             </div>
