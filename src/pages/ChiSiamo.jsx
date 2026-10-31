@@ -19,7 +19,7 @@ export default function ChiSiamo() {
     <>
       <PageHero
         kicker="Il team"
-        title="<em>Chi siamo</em>"
+        title="Chi siamo"
         lead="AG Medica Milano è uno studio medico multidisciplinare fondato con una missione chiara: offrire cure specialistiche integrate, dove ogni professionista collabora per costruire il percorso di salute migliore per il paziente."
         breadcrumbs={[{ to: '/', label: 'Home' }, { label: 'Chi siamo' }]}
       />
