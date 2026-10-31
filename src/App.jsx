@@ -3,7 +3,6 @@ import ScrollToTop from './components/ScrollToTop'
 import Strip from './components/Strip'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
-import Dock from './components/Dock'
 import Home from './pages/Home'
 import ChiSiamo from './pages/ChiSiamo'
 import Servizi from './pages/Servizi'
@@ -21,7 +20,6 @@ function Layout({ children }) {
       <Nav />
       {children}
       <Footer />
-      <Dock />
     </>
   )
 }
