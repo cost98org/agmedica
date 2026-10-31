@@ -17,9 +17,8 @@ export default function SpecialistContacts() {
               </svg>
             </div>
             <div className="info-content">
-              <strong>{name}</strong>
+              <strong>{name} — {specialization}</strong>
               <span className="specialist-details-line">
-                <span>{specialization}</span>
                 <a href={href} aria-label={`Chiama ${name} al ${phone}`}>{phone}</a>
               </span>
             </div>
