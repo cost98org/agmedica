@@ -622,3 +622,15 @@
   color: var(--navy);
   text-decoration-color: currentColor;
 }
+
+/* Phone numbers remain clickable but without underlines */
+.contact-left-column .specialist-info-row .specialist-details-line a,
+.contact-left-column a[href^="tel:"] {
+  text-decoration: none;
+}
+.contact-left-column .specialist-info-row .specialist-details-line a:hover,
+.contact-left-column .specialist-info-row .specialist-details-line a:focus-visible,
+.contact-left-column a[href^="tel:"]:hover,
+.contact-left-column a[href^="tel:"]:focus-visible {
+  text-decoration: none;
+}
