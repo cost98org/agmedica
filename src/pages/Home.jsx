@@ -42,16 +42,8 @@ export default function Home() {
             <div className="hero-card-title">Lo studio in numeri</div>
             <div className="stat-grid">
               <div className="stat">
-                <div className="stat-val" data-count="9" data-suffix="+">9+</div>
-                <div className="stat-label">Anni di attività</div>
-              </div>
-              <div className="stat">
                 <div className="stat-val" data-count="4">4</div>
                 <div className="stat-label">Specializzazioni</div>
-              </div>
-              <div className="stat">
-                <div className="stat-val" data-count="4">4</div>
-                <div className="stat-label">Medici esperti</div>
               </div>
               <div className="stat">
                 <div className="stat-val" data-count="500" data-suffix="+">500+</div>
