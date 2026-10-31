@@ -511,3 +511,6 @@
 .contact-left-column .specialist-contacts-grid {
   gap: .55rem;
 }
+
+/* Use the same heading color as Indirizzo for specialist roles */
+.contact-left-column .specialist-contact-specialization { color: var(--navy); }
