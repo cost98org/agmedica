@@ -841,45 +841,6 @@ input:focus, textarea:focus, select:focus {
 }
 textarea { min-height: 120px; resize: vertical; }
 
-/* ─── MOBILE BOTTOM BAR ───────── */
-.mobile-bar { display: none; }
-@media (max-width: 768px) {
-  .mobile-bar {
-    display: flex;
-    position: fixed;
-    bottom: 0; left: 0; right: 0;
-    z-index: 90;
-    background: rgba(255,255,255,0.95);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-top: 1px solid var(--gray-100);
-    box-shadow: 0 -4px 20px rgba(0,0,0,0.08);
-    height: 62px;
-  }
-  .mobile-bar-item {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3px;
-    font-size: 0.68rem;
-    font-weight: 600;
-    color: var(--text-dim);
-    letter-spacing: 0.02em;
-    transition: color 0.15s;
-  }
-  .mobile-bar-item:hover { color: var(--navy); }
-  .mobile-bar-cta {
-    color: #fff;
-    background: var(--navy);
-    border-top: 2.5px solid var(--navy);
-    font-weight: 700;
-  }
-  .mobile-bar-cta:hover { background: var(--navy-dark); color: #fff; }
-  body { padding-bottom: 62px; }
-}
-
 /* ─── FOOTER ──────────────────── */
 .footer {
   background: var(--navy-dark);
