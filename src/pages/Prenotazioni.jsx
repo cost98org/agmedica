@@ -91,7 +91,6 @@ export default function Prenotazioni() {
             <div className="booking-aside">
               <div className="booking-card reveal">
                 <h4>Contatti diretti</h4>
-                <a href="tel:+390200000000" className="contact-link"><span className="contact-link-icon">📞</span>+39 02 0000 0000</a>
                 <a href="mailto:info@agmedicamilano.it" className="contact-link"><span className="contact-link-icon">✉️</span>info@agmedicamilano.it</a>
                 <a href="https://wa.me/390000000000" target="_blank" rel="noopener" className="contact-link"><span className="contact-link-icon">💬</span>WhatsApp</a>
               </div>
