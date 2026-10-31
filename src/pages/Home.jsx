@@ -123,27 +123,52 @@ export default function Home() {
             <h2 className="section-title">Il tuo percorso di <em>cura</em></h2>
             <p className="section-lead">Dalla prima visita al benessere duraturo: un percorso personalizzato con un team sempre al tuo fianco.</p>
           </div>
-          <div className="process-grid">
-            <div className="process-item reveal">
-              <div className="process-num">01</div>
-              <div className="process-title">Prima visita</div>
-              <p className="process-desc">Lo specialista valuta storia clinica, stile di vita e obiettivi. Un ascolto vero, senza fretta, per capire la persona prima della condizione.</p>
-            </div>
-            <div className="process-item reveal">
-              <div className="process-num">02</div>
-              <div className="process-title">Piano personalizzato</div>
-              <p className="process-desc">Ricevi un percorso costruito su misura. Se necessario, i professionisti dello studio collaborano tra loro per una cura integrata.</p>
-            </div>
-            <div className="process-item reveal">
-              <div className="process-num">03</div>
-              <div className="process-title">Follow-up continuo</div>
-              <p className="process-desc">Visite di controllo periodiche, aggiustamenti del piano e supporto costante fino al raggiungimento degli obiettivi.</p>
-            </div>
-            <div className="process-item reveal">
-              <div className="process-num">04</div>
-              <div className="process-title">Tutoraggio giornaliero</div>
-              <p className="process-desc">A disposizione un tutor che ti seguirà passo per passo nel tuo percorso di cura.</p>
-            </div>
+          <div className="care-journey" aria-label="Le quattro fasi del percorso di cura">
+            <div className="care-journey-track" aria-hidden="true"></div>
+            <article className="care-step reveal">
+              <div className="care-step-marker">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><circle cx="11" cy="8" r="3"/><path d="M5 21v-2a6 6 0 0 1 12 0v2"/><path d="M18 5h5M20.5 2.5v5"/></svg>
+              </div>
+              <div className="care-step-content">
+                <span className="care-step-index">FASE 01</span>
+                <h3>Prima visita</h3>
+                <p>Lo specialista ascolta le tue esigenze e valuta storia clinica, stile di vita e obiettivi.</p>
+              </div>
+            </article>
+            <article className="care-step reveal">
+              <div className="care-step-marker">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4.5h6M9 10h6M9 14h4"/><path d="m14 17 2 2 4-4"/></svg>
+              </div>
+              <div className="care-step-content">
+                <span className="care-step-index">FASE 02</span>
+                <h3>Piano personalizzato</h3>
+                <p>Un programma costruito su misura, con professionisti che collaborano per la tua salute.</p>
+              </div>
+            </article>
+            <article className="care-step reveal">
+              <div className="care-step-marker">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M3 12h4l3-6 4 12 3-6h4"/><path d="M4 20h16"/></svg>
+              </div>
+              <div className="care-step-content">
+                <span className="care-step-index">FASE 03</span>
+                <h3>Follow-up continuo</h3>
+                <p>Controlli periodici per monitorare i risultati e adattare il piano quando necessario.</p>
+              </div>
+            </article>
+            <article className="care-step reveal care-step-featured">
+              <div className="care-step-marker">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M20 8a5 5 0 0 0-8-4 5 5 0 0 0-8 4c0 5 8 11 8 11s8-6 8-11Z"/><path d="M9 10h6M12 7v6"/></svg>
+              </div>
+              <div className="care-step-content">
+                <span className="care-step-index">FASE 04</span>
+                <h3>Tutoraggio giornaliero</h3>
+                <p>Un tutor a tua disposizione, per seguirti passo dopo passo nel percorso di cura.</p>
+              </div>
+            </article>
+          </div>
+          <div className="care-journey-footer reveal">
+            <span>Un percorso che mette la persona al centro, ogni giorno.</span>
+            <Link to="/prenotazioni" className="care-journey-link">Inizia il tuo percorso <span aria-hidden="true">→</span></Link>
           </div>
         </div>
       </section>
