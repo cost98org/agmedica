@@ -69,45 +69,57 @@ export default function Home() {
         <div className="w">
           <div className="section-head reveal">
             <div className="kicker">I nostri servizi</div>
-            <h2 className="section-title">Cure integrate per il <em>tuo benessere</em></h2>
-            <p className="section-lead">Ogni percorso è personalizzato e seguito da uno specialista dedicato. Dalla prima valutazione al follow-up.</p>
+            <h2 className="section-title">La tua salute, il nostro <em>impegno</em></h2>
+            <p className="section-lead">Quattro specializzazioni, un unico obiettivo: prenderci cura di te con un percorso personalizzato.</p>
           </div>
-          <div className="services-grid">
-            <Link to="/servizi/nutrizione" className="svc-card nutri reveal">
-              <div className="svc-header">
-                <span className="svc-num">01</span>
+          <div className="services-photo-grid">
+            <Link to="/servizi/nutrizione" className="service-photo-card reveal">
+              <div className="service-photo-media">
+                <img src="/assets/studio-1.webp" alt="Ambiente dello studio AGMedica" loading="lazy" />
+                <span className="service-photo-tag">Nutrizione</span>
               </div>
-              <div className="svc-name">Nutrizione</div>
-              <div className="svc-doctor">Dr. Antonio Balestra</div>
-              <p className="svc-desc">Percorsi nutrizionali clinici e sportivi, gestione del peso, disturbi del comportamento alimentare. Dal primo bilancio al follow-up mensile.</p>
-              <span className="svc-link">Scopri il servizio</span>
+              <div className="service-photo-content">
+                <h3>Nutrizione</h3>
+                <span className="service-photo-doctor">Dr. Antonio Balestra</span>
+                <p>Percorsi alimentari personalizzati per il tuo benessere e i tuoi obiettivi.</p>
+                <span className="service-photo-link">Scopri il servizio <span aria-hidden="true">↗</span></span>
+              </div>
             </Link>
-            <Link to="/servizi/osteopatia" className="svc-card osteo reveal">
-              <div className="svc-header">
-                <span className="svc-num">02</span>
+            <Link to="/servizi/osteopatia" className="service-photo-card reveal">
+              <div className="service-photo-media">
+                <img src="/assets/doctors/gianluca-de-lume.webp" alt="Dr. Gianluca De Lumè" loading="lazy" />
+                <span className="service-photo-tag">Osteopatia</span>
               </div>
-              <div className="svc-name">Osteopatia</div>
-              <div className="svc-doctor">Dr. Gianluca De Lumè</div>
-              <p className="svc-desc">Terapia manuale per dolori muscoloscheletrici, posturali e viscerali. Tecnica strutturale, craniosacrale e viscerale per il corpo nel suo insieme.</p>
-              <span className="svc-link">Scopri il servizio</span>
+              <div className="service-photo-content">
+                <h3>Osteopatia</h3>
+                <span className="service-photo-doctor">Dr. Gianluca De Lumè</span>
+                <p>Trattamenti manuali mirati per mobilità, postura e benessere.</p>
+                <span className="service-photo-link">Scopri il servizio <span aria-hidden="true">↗</span></span>
+              </div>
             </Link>
-            <Link to="/servizi/psicologia" className="svc-card psico reveal">
-              <div className="svc-header">
-                <span className="svc-num">03</span>
+            <Link to="/servizi/psicologia" className="service-photo-card reveal">
+              <div className="service-photo-media">
+                <img src="/assets/doctors/alessandro-romagnoli.webp" alt="Dr. Alessandro Romagnoli" loading="lazy" />
+                <span className="service-photo-tag">Psicologia</span>
               </div>
-              <div className="svc-name">Psicologia</div>
-              <div className="svc-doctor">Dr. Alessandro Romagnoli</div>
-              <p className="svc-desc">Psicoterapia cognitivo-comportamentale per ansia, depressione, stress e blocchi emotivi. Percorsi individuali e di coppia in ambiente riservato.</p>
-              <span className="svc-link">Scopri il servizio</span>
+              <div className="service-photo-content">
+                <h3>Psicologia</h3>
+                <span className="service-photo-doctor">Dr. Alessandro Romagnoli</span>
+                <p>Uno spazio di ascolto e supporto per il benessere psicologico.</p>
+                <span className="service-photo-link">Scopri il servizio <span aria-hidden="true">↗</span></span>
+              </div>
             </Link>
-            <Link to="/servizi/ozonoterapia" className="svc-card ozono reveal">
-              <div className="svc-header">
-                <span className="svc-num">04</span>
+            <Link to="/servizi/ozonoterapia" className="service-photo-card reveal">
+              <div className="service-photo-media">
+                <img src="/assets/studio-2.webp" alt="Ambiente dello studio AGMedica" loading="lazy" />
+                <span className="service-photo-tag">Ozonoterapia</span>
               </div>
-              <div className="svc-name">Ozonoterapia</div>
-              <div className="svc-doctor">Dr. Tommaso Richelmi</div>
-              <p className="svc-desc">Ozono medicale a effetto antinfiammatorio, analgesico e rigenerativo. Ideale per artrosi, ernie discali, dolori cronici e recupero post-operatorio.</p>
-              <span className="svc-link">Scopri il servizio</span>
+              <div className="service-photo-content">
+                <h3>Ozonoterapia</h3>
+                <span className="service-photo-doctor">Dr. Tommaso Richelmi</span>
+                <p>Valutazioni specialistiche e trattamenti personalizzati.</p>
+                <span className="service-photo-link">Scopri il servizio <span aria-hidden="true">↗</span></span>
+              </div>
             </Link>
           </div>
         </div>
