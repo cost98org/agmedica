@@ -30,11 +30,11 @@ export default function Osteopatia() {
             <div>
               <div className="content-block reveal">
                 <h3>Il servizio</h3>
-                <p>L&rsquo;osteopatia è una disciplina terapeutica manuale che valuta e tratta le disfunzioni del sistema muscolo-scheletrico, viscerale e craniosacrale. Il Dr. De Lumè lavora sul corpo nel suo insieme, identificando le cause profonde del dolore e del disagio.</p>
+                <p>L&rsquo;osteopatia è una disciplina terapeutica manuale che valuta e tratta le disfunzioni del sistema muscolo-scheletrico, viscerale e fasciale. Il Dr. De Lumè lavora sul corpo nel suo insieme, identificando le cause profonde del dolore e del disagio.</p>
                 <p>Indicazioni principali: mal di schiena e cervicale, ernie discali, dolori articolari, cefalee tensivo-muscolari, problemi posturali, recupero post-traumatico, disturbi viscerali correlati.</p>
                 <ul className="feature-list">
                   <li>Valutazione osteopatica globale</li>
-                  <li>Tecniche strutturali, craniosacrale e viscerale</li>
+                  <li>Manipolazione dei tessuti molli, manipolazioni articolari</li>
                   <li>Piano di trattamento individuale</li>
                   <li>Consigli posturali e di autocura</li>
                 </ul>
