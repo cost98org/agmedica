@@ -74,10 +74,7 @@ export default function Home() {
           </div>
           <div className="services-photo-grid">
             <Link to="/servizi/nutrizione" className="service-photo-card reveal">
-              <div className="service-photo-media">
-                <img src="/assets/studio-1.webp" alt="Ambiente dello studio AGMedica" loading="lazy" />
-                <span className="service-photo-tag">Nutrizione</span>
-              </div>
+              <div className="service-icon-wrap" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22v-8"/><path d="M12 14C5 14 4 9 4 5c5 0 8 2 8 9Z"/><path d="M12 14c0-7 3-9 8-9 0 4-1 9-8 9Z"/></svg></div>
               <div className="service-photo-content">
                 <h3>Nutrizione</h3>
                 <span className="service-photo-doctor">Dr. Antonio Balestra</span>
@@ -86,10 +83,7 @@ export default function Home() {
               </div>
             </Link>
             <Link to="/servizi/osteopatia" className="service-photo-card reveal">
-              <div className="service-photo-media">
-                <img src="/assets/doctors/gianluca-de-lume.webp" alt="Dr. Gianluca De Lumè" loading="lazy" />
-                <span className="service-photo-tag">Osteopatia</span>
-              </div>
+              <div className="service-icon-wrap" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="m7 7 10 10M5 10l5-5M14 19l5-5"/><circle cx="12" cy="12" r="9"/></svg></div>
               <div className="service-photo-content">
                 <h3>Osteopatia</h3>
                 <span className="service-photo-doctor">Dr. Gianluca De Lumè</span>
@@ -98,10 +92,7 @@ export default function Home() {
               </div>
             </Link>
             <Link to="/servizi/psicologia" className="service-photo-card reveal">
-              <div className="service-photo-media">
-                <img src="/assets/doctors/alessandro-romagnoli.webp" alt="Dr. Alessandro Romagnoli" loading="lazy" />
-                <span className="service-photo-tag">Psicologia</span>
-              </div>
+              <div className="service-icon-wrap" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M12 21s-8-4.5-8-11a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 6.5-8 11-8 11Z"/><path d="M9 12h6"/></svg></div>
               <div className="service-photo-content">
                 <h3>Psicologia</h3>
                 <span className="service-photo-doctor">Dr. Alessandro Romagnoli</span>
@@ -110,10 +101,7 @@ export default function Home() {
               </div>
             </Link>
             <Link to="/servizi/ozonoterapia" className="service-photo-card reveal">
-              <div className="service-photo-media">
-                <img src="/assets/studio-2.webp" alt="Ambiente dello studio AGMedica" loading="lazy" />
-                <span className="service-photo-tag">Ozonoterapia</span>
-              </div>
+              <div className="service-icon-wrap" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 5v14M5 12h14"/></svg></div>
               <div className="service-photo-content">
                 <h3>Ozonoterapia</h3>
                 <span className="service-photo-doctor">Dr. Tommaso Richelmi</span>
