@@ -429,3 +429,31 @@
   .contact-section .contact-layout iframe,
   .contatti-grid iframe { height: 300px; min-height: 300px; }
 }
+
+
+/* Specialists and studio details in one narrow column; tall map alongside */
+.contact-section .contact-layout,
+.contatti-grid { grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); align-items: stretch; }
+.contact-left-column { min-width: 0; display: flex; flex-direction: column; gap: 1.1rem; }
+.contact-left-column .specialist-contacts { margin: 0; }
+.contact-left-column .specialist-contacts-heading { margin-bottom: .75rem; }
+.contact-left-column .specialist-contacts-heading h2 { font-size: clamp(1.15rem, 1.6vw, 1.35rem); }
+.contact-left-column .specialist-contacts-heading p { font-size: .82rem; }
+.contact-left-column .specialist-contacts-grid { grid-template-columns: 1fr; gap: .5rem; }
+.contact-left-column .specialist-contact-card { padding: .65rem .8rem; gap: .7rem; border-radius: 12px; }
+.contact-left-column .specialist-contact-avatar { width: 38px; height: 38px; flex-basis: 38px; font-size: .69rem; }
+.contact-left-column .specialist-contact-details { gap: .15rem; }
+.contact-left-column .specialist-contact-details strong { font-size: .88rem; }
+.contact-left-column .specialist-contact-details span { font-size: .79rem; }
+.contact-left-column .specialist-contact-call { padding: .45rem .7rem; min-height: 38px; min-width: 0; border-radius: 9px; font-size: .8rem; }
+.contact-left-column .contact-info-block { gap: .55rem; }
+.contact-left-column .contact-info-block .info-row { flex: initial; padding: .8rem 1rem; border-radius: 12px; }
+.contact-section .contact-layout iframe,
+.contatti-grid iframe { min-height: 690px; height: 100%; }
+@media (max-width: 900px) {
+ .contact-section .contact-layout, .contatti-grid { grid-template-columns: 1fr; }
+ .contact-section .contact-layout iframe, .contatti-grid iframe { min-height: 380px; height: 380px; }
+}
+@media (max-width: 580px) {
+ .contact-section .contact-layout iframe, .contatti-grid iframe { min-height: 320px; height: 320px; }
+}
