@@ -1,8 +1,8 @@
 const specialists = [
-  { name: 'Dr. Gianluca De Lumè', specialization: 'Osteopata D.O.', phone: '320 462 4437', href: 'tel:+393204624437' },
-  { name: 'Dr. Antonio Balestra', specialization: 'Nutrizionista', phone: '331 788 2547', href: 'tel:+393317882547' },
-  { name: 'Dr. Tommaso Richelmi', specialization: 'Medico — Ozonoterapia', phone: '342 623 1669', href: 'tel:+393426231669' },
-  { name: 'Dr. Alessandro Romagnoli', specialization: 'Psicologo e Psicoterapeuta', phone: '339 332 1147', href: 'tel:+393393321147' },
+  { name: 'Dr. G. De Lumè', specialization: 'Osteopata D.O.', phone: '320 462 4437', href: 'tel:+393204624437' },
+  { name: 'Dr. A. Balestra', specialization: 'Nutrizionista', phone: '331 788 2547', href: 'tel:+393317882547' },
+  { name: 'Dr. T. Richelmi', specialization: 'Medico — Ozonoterapia', phone: '342 623 1669', href: 'tel:+393426231669' },
+  { name: 'Dr. A. Romagnoli', specialization: 'Psicologo e Psicoterapeuta', phone: '339 332 1147', href: 'tel:+393393321147' },
 ]
 
 export default function SpecialistContacts() {
