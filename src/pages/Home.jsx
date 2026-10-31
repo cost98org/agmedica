@@ -166,10 +166,6 @@ export default function Home() {
               </div>
             </article>
           </div>
-          <div className="care-journey-footer reveal">
-            <span>Un percorso che mette la persona al centro, ogni giorno.</span>
-            <Link to="/prenotazioni" className="care-journey-link">Inizia il tuo percorso <span aria-hidden="true">→</span></Link>
-          </div>
         </div>
       </section>
 
