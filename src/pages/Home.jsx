@@ -33,9 +33,9 @@ export default function Home() {
               <Link to="/servizi" className="btn btn-outline-white">Scopri i servizi</Link>
             </div>
             <div className="hero-trust reveal">
-              <div className="trust-item"><span className="trust-dot"></span>Iscritti all&rsquo;Ordine</div>
-              <div className="trust-item"><span className="trust-dot"></span>Risposta entro 24 ore</div>
-              <div className="trust-item"><span className="trust-dot"></span>Certificati MioDottore</div>
+              <div className="trust-item"><span className="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3 4 7v5c0 5 3.5 8 8 9 4.5-1 8-4 8-9V7l-8-4Z"/><path d="m9 12 2 2 4-4"/></svg></span><span>Iscritti all&rsquo;Ordine</span></div>
+              <div className="trust-item"><span className="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><span>Risposta entro 24 ore</span></div>
+              <div className="trust-item"><span className="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3 4 7v5c0 5 3.5 8 8 9 4.5-1 8-4 8-9V7l-8-4Z"/><path d="m9 12 2 2 4-4"/></svg></span><span>Certificati MioDottore</span></div>
             </div>
           </div>
 
