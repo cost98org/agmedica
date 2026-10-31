@@ -523,3 +523,42 @@
 .specialist-contact-name { color: var(--text-dim); font-size: .83rem; font-weight: 400; }
 .contact-left-column .specialist-contact-specialization { color: var(--navy); font-weight: 700; font-size: .88rem; }
 .contact-left-column .specialist-contact-number { white-space: nowrap; }
+
+
+/* Exact visual match with the Indirizzo / Email / Orari rows */
+.contact-left-column .specialist-contact-card {
+  min-height: 0;
+  padding: .8rem 1rem;
+  gap: .75rem;
+  align-items: flex-start;
+  border: 1px solid #e7ebee;
+  border-radius: 12px;
+  background: #fbfcfc;
+  box-shadow: none;
+}
+.contact-left-column .specialist-contact-avatar {
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  border-radius: 10px;
+}
+.contact-left-column .specialist-contact-details { gap: 0; min-width: 0; }
+.contact-left-column .specialist-contact-specialization {
+  display: block;
+  font-size: .78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--text-dim);
+  line-height: 1.4;
+  margin-bottom: .18rem;
+}
+.contact-left-column .specialist-contact-inline { column-gap: .65rem; row-gap: .1rem; }
+.contact-left-column .specialist-contact-name,
+.contact-left-column .specialist-contact-number {
+  font-size: .95rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--text);
+}
+.contact-left-column .specialist-contact-number { color: var(--navy); }
