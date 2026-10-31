@@ -355,3 +355,20 @@
   .contact-card { padding: 1.5rem; }
   .booking-step { padding: 1.5rem; }
 }
+
+
+/* Direct specialist contacts — visible cards instead of a dropdown */
+.specialist-contacts { margin-bottom: 2.5rem; }
+.specialist-contacts-heading { margin-bottom: 1.25rem; }
+.specialist-contacts-heading h2 { font-family: "Sora", sans-serif; font-size: clamp(1.25rem, 2.5vw, 1.7rem); line-height: 1.3; color: var(--navy); margin-bottom: .35rem; }
+.specialist-contacts-heading p { color: var(--text-dim); font-size: .95rem; }
+.specialist-contacts-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.specialist-contact-card { display: flex; align-items: center; gap: .95rem; min-width: 0; padding: 1.1rem 1.2rem; background: #fff; border: 1px solid var(--gray-100); border-radius: 16px; box-shadow: var(--shadow-sm); }
+.specialist-contact-avatar { width: 52px; height: 52px; flex: 0 0 52px; border-radius: 50%; background: #e5f2ee; color: var(--teal); display: grid; place-items: center; font-family: "Sora", sans-serif; font-weight: 700; font-size: .84rem; }
+.specialist-contact-details { display: flex; flex-direction: column; gap: .3rem; min-width: 0; }
+.specialist-contact-details strong { font-family: "Sora", sans-serif; font-size: .98rem; color: var(--navy); }
+.specialist-contact-details span { color: var(--text-dim); font-size: .88rem; white-space: nowrap; }
+.specialist-contact-call { margin-left: auto; display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 44px; padding: .6rem .9rem; border: 1px solid var(--teal); border-radius: 10px; color: var(--teal); font-weight: 700; text-decoration: none; white-space: nowrap; transition: color .2s, background .2s; }
+.specialist-contact-call:hover, .specialist-contact-call:focus-visible { background: var(--teal); color: #fff; }
+@media (max-width: 900px) { .specialist-contacts-grid { grid-template-columns: 1fr; } }
+@media (max-width: 460px) { .specialist-contact-card { gap: .65rem; padding: .85rem; } .specialist-contact-avatar { width: 42px; height: 42px; flex-basis: 42px; } .specialist-contact-call { padding: .55rem .7rem; } .specialist-contact-details strong { font-size: .88rem; } .specialist-contact-details span { font-size: .8rem; } }
