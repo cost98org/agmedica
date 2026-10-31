@@ -478,3 +478,16 @@
 .contact-left-column .specialist-contact-number { color: var(--navy); font-weight: 650; font-size: .84rem; text-decoration: none; width: fit-content; }
 .contact-left-column .specialist-contact-number:hover,
 .contact-left-column .specialist-contact-number:focus-visible { color: var(--teal); text-decoration: underline; }
+
+
+/* Match specialist phone icons to the studio information icons */
+.specialist-contact-avatar,
+.contact-left-column .specialist-contact-avatar {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  border-radius: 12px;
+  background: var(--navy);
+  color: #fff;
+}
+.specialist-contact-avatar svg { width: 18px; height: 18px; stroke: #fff; }
