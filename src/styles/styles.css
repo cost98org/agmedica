@@ -1330,10 +1330,53 @@ textarea { min-height: 120px; resize: vertical; }
 @media(max-width:700px){ .service-photo-card { padding:1.3rem; } }
 
 
-/* Compact trust cards in the hero */
-.hero-trust { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.7rem; margin-top:.65rem; }
-.hero-trust .trust-item { display:flex; align-items:center; gap:.65rem; min-width:0; padding:.8rem .85rem; background:rgba(255,255,255,.10); border:1px solid rgba(255,255,255,.20); border-radius:13px; color:#fff; font-size:.78rem; line-height:1.4; font-weight:600; backdrop-filter:blur(5px); }
-.trust-icon { display:grid; place-items:center; flex:0 0 32px; width:32px; height:32px; background:rgba(125,212,200,.16); color:#a4e4d9; border-radius:9px; }
-.trust-icon svg { width:19px; height:19px; }
-@media(max-width:1050px){.hero-trust {grid-template-columns:repeat(3,minmax(0,1fr));}}
-@media(max-width:650px){.hero-trust {grid-template-columns:1fr; gap:.55rem;} .hero-trust .trust-item {padding:.7rem .8rem;} }
+/* Minimal trust highlights: no cards, only icons and subtle separators */
+.hero-trust {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .65rem 0;
+  margin-top: 1.45rem;
+}
+.hero-trust .trust-item {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  gap: .45rem;
+  min-width: 0;
+  padding: .15rem 1rem .15rem 0;
+  margin-right: 1rem;
+  border: 0;
+  border-right: 1px solid rgba(255,255,255,.22);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  color: rgba(255,255,255,.85);
+  font-size: .8rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.hero-trust .trust-item:last-child { border-right: 0; margin-right: 0; }
+.hero-trust .trust-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 18px;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  color: #93ddd0;
+}
+.hero-trust .trust-icon svg { width: 17px; height: 17px; }
+@media (max-width: 650px) {
+  .hero-trust { gap: .55rem .9rem; }
+  .hero-trust .trust-item {
+    padding: 0;
+    margin: 0;
+    border-right: 0;
+    font-size: .76rem;
+  }
+}
