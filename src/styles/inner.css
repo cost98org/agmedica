@@ -603,3 +603,22 @@
   white-space: nowrap;
   color: var(--navy);
 }
+
+
+/* Distinguishable and accessible links in contact cards */
+.contact-left-column .info-content a,
+.contact-left-column .specialist-info-row .specialist-details-line a {
+  color: #187d6b;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(24,125,107,.45);
+  text-underline-offset: 3px;
+  transition: color .2s, text-decoration-color .2s;
+}
+.contact-left-column .info-content a:hover,
+.contact-left-column .specialist-info-row .specialist-details-line a:hover,
+.contact-left-column .info-content a:focus-visible,
+.contact-left-column .specialist-info-row .specialist-details-line a:focus-visible {
+  color: var(--navy);
+  text-decoration-color: currentColor;
+}
