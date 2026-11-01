@@ -691,8 +691,9 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     justify-items: center;
+    align-items: center;
     align-content: center;
-    gap: .4rem;
+    gap: .35rem;
     padding: .95rem .65rem;
     text-align: center;
   }
