@@ -404,6 +404,18 @@ p:last-child { margin-bottom: 0; }
   align-items: center;
   margin-bottom: 2.5rem;
 }
+/* Primary hero CTA uses the same aqua tone as "specialisti" */
+.hero-actions .btn-primary {
+  background: #7dd4c8;
+  color: var(--navy-dark);
+  box-shadow: 0 4px 16px rgba(125, 212, 200, .18);
+}
+.hero-actions .btn-primary:hover,
+.hero-actions .btn-primary:focus-visible {
+  background: #a1e7dc;
+  color: var(--navy-dark);
+  box-shadow: 0 6px 20px rgba(125, 212, 200, .24);
+}
 .hero-trust {
   display: flex;
   gap: 1.5rem;
