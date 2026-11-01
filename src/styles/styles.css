@@ -1600,8 +1600,11 @@ textarea { min-height: 120px; resize: vertical; }
   .footer-col:last-child { grid-column: 1 / -1; }
 }
 @media (max-width: 580px) {
-  .footer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.75rem 1.1rem; }
-  .footer-brand { grid-column: 1 / -1; }
-  .footer-services { grid-column: auto; }
-  .footer-col:last-child { grid-column: 1 / -1; }
+  .footer-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.85rem;
+  }
+  .footer-brand,
+  .footer-services,
+  .footer-col:last-child { grid-column: auto; }
 }
