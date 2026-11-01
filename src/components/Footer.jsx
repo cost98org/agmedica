@@ -15,6 +15,13 @@ export default function Footer() {
           <Link to="/contatti">Contatti</Link>
           <Link to="/prenotazioni">Prenota una visita</Link>
         </div>
+        <nav className="footer-col footer-services" aria-label="I nostri servizi">
+          <div className="footer-col-title">I nostri servizi</div>
+          <Link to="/servizi/nutrizione">Nutrizione</Link>
+          <Link to="/servizi/osteopatia">Osteopatia</Link>
+          <Link to="/servizi/psicologia">Psicologia</Link>
+          <Link to="/servizi/ozonoterapia">Ozonoterapia</Link>
+        </nav>
         <div className="footer-col">
           <div className="footer-col-title">Contatti</div>
           <a href="mailto:info@agmedicamilano.it">info@agmedicamilano.it</a>
