@@ -1528,61 +1528,25 @@ textarea { min-height: 120px; resize: vertical; }
 }
 
 
-/* Services page closing CTA: calm, light treatment instead of a dark banner */
-.services-care-cta {
-  background: linear-gradient(110deg, #ffffff 0%, #f7fbf9 100%);
-  border-top: 1px solid #edf2f0;
-  padding: clamp(3rem, 6vw, 5rem) 0;
-}
-.services-care-cta-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: clamp(1.5rem, 4vw, 4rem);
-  padding-left: clamp(1.2rem, 2.4vw, 2.2rem);
-  border-left: 3px solid var(--teal);
-}
-.services-care-cta-content p {
-  max-width: 760px;
-  margin: 0;
-  font-family: "Sora", sans-serif;
-  font-size: clamp(1.1rem, 2vw, 1.55rem);
-  font-weight: 550;
-  line-height: 1.65;
-  color: var(--navy);
-}
-.services-care-cta-content p em {
-  font-style: normal;
-  color: var(--teal);
-  font-weight: 700;
-}
-.services-care-cta-button {
-  flex: 0 0 auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: .8rem;
-  background: var(--navy);
-  color: #fff;
-  border: 1px solid var(--navy);
-  border-radius: 12px;
-  text-decoration: none;
-  white-space: nowrap;
-}
-.services-care-cta-button:hover,
-.services-care-cta-button:focus-visible {
-  background: var(--teal);
-  border-color: var(--teal);
+/* Services page quote: homepage typography with a different, deep teal background */
+.services-quote-section {
+  position: relative;
+  background: linear-gradient(125deg, #246b63 0%, #19534e 100%);
   color: #fff;
 }
-@media (max-width: 900px) {
-  .services-care-cta-content { align-items: flex-start; flex-direction: column; }
+.services-quote-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse at 88% 22%, rgba(160,232,212,.12), transparent 55%);
 }
-@media (max-width: 600px) {
-  .services-care-cta { padding: 2.7rem 0; }
-  .services-care-cta-content { padding-left: 1rem; gap: 1.5rem; }
-  .services-care-cta-content p { font-size: 1.08rem; line-height: 1.65; }
-  .services-care-cta-button { white-space: normal; }
+.services-quote-section .w { position: relative; z-index: 1; }
+.services-quote-section .quote-text em { color: #b3f1dc; }
+.services-quote-section .quote-banner::before { color: rgba(255,255,255,.075); }
+@media (max-width: 650px) {
+  .services-quote-section .quote-banner { padding: 1.4rem .3rem; }
+  .services-quote-section .quote-banner::before { left: -.2rem; top: -.8rem; }
 }
 
 
