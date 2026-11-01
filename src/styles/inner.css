@@ -685,28 +685,38 @@
 }
 
 
-/* Mobile: center each specialist's name, role and direct phone number */
+/* Mobile: aligned, centered name / role / telephone for all specialists */
 @media (max-width: 700px) {
   .contact-left-column .specialists-group-item {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: .35rem;
-    padding: 1rem .65rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    align-content: center;
+    gap: .4rem;
+    padding: .95rem .65rem;
     text-align: center;
   }
   .contact-left-column .specialists-group-person {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     width: 100%;
     gap: .2rem;
+    text-align: center;
+  }
+  .contact-left-column .specialists-group-person strong,
+  .contact-left-column .specialists-group-person span {
+    width: 100%;
     text-align: center;
   }
   .contact-left-column .specialists-group-item a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    justify-self: center;
     min-height: 32px;
     font-size: .9rem;
+    text-align: center;
     text-decoration: none;
   }
 }
