@@ -1517,8 +1517,8 @@ textarea { min-height: 120px; resize: vertical; }
 
 /* Services page closing CTA: calm, light treatment instead of a dark banner */
 .services-care-cta {
-  background: #f5f8f7;
-  border-top: 1px solid #e5eeeb;
+  background: linear-gradient(110deg, #ffffff 0%, #f7fbf9 100%);
+  border-top: 1px solid #edf2f0;
   padding: clamp(3rem, 6vw, 5rem) 0;
 }
 .services-care-cta-content {
