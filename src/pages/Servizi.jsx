@@ -58,11 +58,11 @@ export default function Servizi() {
         </div>
       </section>
 
-      <section className="section services-care-cta">
+      <section className="section services-quote-section">
         <div className="w">
-          <div className="services-care-cta-content reveal">
-            <p>Ogni visita è solo l&rsquo;inizio di un percorso: i nostri specialisti collaborano per offrirti un <em>piano di salute integrato</em>, non interventi isolati.</p>
-            <Link to="/prenotazioni" className="btn services-care-cta-button">Inizia il tuo percorso <span aria-hidden="true">→</span></Link>
+          <div className="quote-banner reveal">
+            <p className="quote-text">&ldquo;Ogni visita è solo l&rsquo;inizio di un percorso: i nostri specialisti collaborano per offrirti un <em>piano di salute integrato</em>, non interventi isolati.&rdquo;</p>
+            <Link to="/prenotazioni" className="btn btn-outline-white">Inizia il tuo percorso</Link>
           </div>
         </div>
       </section>
